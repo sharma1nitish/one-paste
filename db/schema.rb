@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20140914120535) do
   enable_extension "plpgsql"
 
   create_table "pastes", force: true do |t|
-    t.string   "content"
+    t.text     "content"
     t.string   "token"
     t.datetime "created_at"
     t.datetime "updated_at"

@@ -3,7 +3,7 @@
 # Table name: pastes
 #
 #  id         :integer          not null, primary key
-#  content    :string(255)
+#  content    :text
 #  token      :string(255)
 #  created_at :datetime
 #  updated_at :datetime
