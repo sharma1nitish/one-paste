@@ -41,16 +41,12 @@ gem 'byebug', group: [:development, :test]
 # Annotate models
 gem 'annotate'
 
-# Better and more useful error pages
-group :development do
-  gem "better_errors"
-end
-
-# A Rails form builder plugin with semantically rich and accessible markup
-gem 'formtastic'
-
 # Use unicorn as the app server
 gem 'unicorn'
+
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails"
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
