@@ -1,0 +1,52 @@
+*{
+  font-family: 'Exo', sans-serif;
+}
+
+html,body {
+  height: 100%;
+  h1 {
+    color: #00FF91;
+    font-size: 30px;
+    line-height: 20px;
+  }
+}
+
+#myfield textarea {
+  font-family: 'Courier New';
+  background-color: black; 
+  color: white;
+}
+
+/* wrapper for page content to push down footer */
+.page-container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* negative indent footer by its height */
+  margin: 0 auto -120px;
+  /* pad bottom by footer height */
+  padding: 0 0 120px;
+}
+
+/* set the fixed height of the footer here */
+#footer {
+  padding-bottom: -40px;
+  background: #151515;
+  margin-top:60px;
+  font-size: 15px;
+}
+
+#footer > .container {
+  padding: 20px;
+  color: #00FF91;
+}
+
+#footer a:hover {
+  text-shadow: 0 0 15px #FFFFFF;
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.text-center {
+  padding-top: 20px;
+}
