@@ -5,10 +5,13 @@
 html,body {
   height: 100%;
   h1 {
-    color: #00FF91;
+    a {
+      color: #00FF91;
+    }
     font-size: 30px;
     line-height: 20px;
   }
+  a:hover{text-decoration: none;}
 }
 
 #myfield textarea {
@@ -44,7 +47,6 @@ html,body {
 #footer a:hover {
   text-shadow: 0 0 15px #FFFFFF;
   transform: scale(1.05);
-  text-decoration: none;
 }
 
 .text-center {
