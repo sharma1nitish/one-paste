@@ -28,7 +28,9 @@ gem 'spring',        group: :development
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use postgresql as the database for Active Record
-gem 'pg'
+group :production do
+  gem 'pg'
+end
 
 # Use Rails 12Factor for proper integration with Heroku
 gem 'rails_12factor', group: :production
