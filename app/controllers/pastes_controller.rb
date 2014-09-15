@@ -2,10 +2,11 @@ class PastesController < ApplicationController
 
   def create
     paste = Paste.new paste_params
+    render :new && return if paste.nil?
     if paste.save
       redirect_to show_paste_path paste.token
     else
-      redirect_to :new
+      redirect_to new_paste_path
     end  
   end
 
