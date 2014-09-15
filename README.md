@@ -5,9 +5,9 @@ A Rails web app designed to help sharing and discussion text/code snippets.
 
 Try it out [here](http://onepaste.herokuapp.com)
 
-![](https://github.com/sharma1nitish/one-paste/tree/master/app/assets/images/paste1.png)
+![](https://github.com/sharma1nitish/one-paste/blob/master/app/assets/images/paste1.png)
 
-![](https://github.com/sharma1nitish/one-paste/tree/master/app/assets/images/paste2.png)
+![](https://github.com/sharma1nitish/one-paste/blob/master/app/assets/images/paste2.png)
 
 ##TODO
 
