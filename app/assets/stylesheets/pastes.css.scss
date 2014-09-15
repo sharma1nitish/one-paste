@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px; 
+  background: #1E1E1E;
+  color: #f9f9f9;
+}
+
+.block {
+  color: white;
+  background: #151515;
+  margin:20px;
+  padding:20px;
+  -moz-border-radius: 15px; //for mozilla support
+  -webkit-border-radius: 15px; //for chrome support
+  border-radius: 5px;
+  border-color: #151515;
+}
